@@ -1,7 +1,7 @@
 <template>
   <div>
     <slot />
-    <Footer v-if="authenticated"></Footer>
+    <Footer></Footer>
   </div>
 </template>
 
